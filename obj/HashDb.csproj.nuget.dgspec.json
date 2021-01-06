@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\NET\\HelloWorld\\HashDb.csproj": {}
+  },
+  "projects": {
+    "C:\\NET\\HelloWorld\\HashDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NET\\HelloWorld\\HashDb.csproj",
+        "projectName": "HashDb",
+        "projectPath": "C:\\NET\\HelloWorld\\HashDb.csproj",
+        "packagesPath": "C:\\Users\\PiniA\\.nuget\\packages\\",
+        "outputPath": "C:\\NET\\HelloWorld\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\PiniA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\NET\\HashDbService\\HashDbService.csproj": {
+                "projectPath": "C:\\NET\\HashDbService\\HashDbService.csproj"
+              },
+              "C:\\NET\\PAHashDbService\\PAHashDbService.csproj": {
+                "projectPath": "C:\\NET\\PAHashDbService\\PAHashDbService.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Autofac.Mef": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.Mvc5": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.Mvc5.Owin": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.WebApi2.Owin": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Cellebrite.SQLite": {
+              "target": "Package",
+              "version": "[1.0.99, )"
+            },
+            "Microsoft.AspNet.WebApi.OwinSelfHost": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1744 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Autofac/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net461/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mef/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "5.0.0",
+          "System.ComponentModel.Composition": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        }
+      },
+      "Autofac.Mvc5/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Autofac.Mvc5.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        }
+      },
+      "Autofac.Owin/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.Owin": "[3.0.0, 5.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        }
+      },
+      "Autofac.WebApi2/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        }
+      },
+      "Autofac.WebApi2.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)",
+          "Autofac.WebApi2": "[5.0.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.AspNet.WebPages": "[3.1.0, 3.2.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Owin": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin.Host.HttpListener": "2.0.2",
+          "Microsoft.Owin.Hosting": "2.0.2"
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "System.ComponentModel.Composition/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "DeviceService/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceService.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Autofac/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net461/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mef/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "5.0.0",
+          "System.ComponentModel.Composition": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        }
+      },
+      "Autofac.Mvc5/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Autofac.Mvc5.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        }
+      },
+      "Autofac.Owin/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.Owin": "[3.0.0, 5.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        }
+      },
+      "Autofac.WebApi2/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        }
+      },
+      "Autofac.WebApi2.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)",
+          "Autofac.WebApi2": "[5.0.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.AspNet.WebPages": "[3.1.0, 3.2.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Owin": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin.Host.HttpListener": "2.0.2",
+          "Microsoft.Owin.Hosting": "2.0.2"
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "System.ComponentModel.Composition/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "DeviceService/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceService.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Autofac/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net461/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mef/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "5.0.0",
+          "System.ComponentModel.Composition": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        }
+      },
+      "Autofac.Mvc5/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Autofac.Mvc5.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        }
+      },
+      "Autofac.Owin/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.Owin": "[3.0.0, 5.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        }
+      },
+      "Autofac.WebApi2/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        }
+      },
+      "Autofac.WebApi2.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)",
+          "Autofac.WebApi2": "[5.0.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.AspNet.WebPages": "[3.1.0, 3.2.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Owin": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin.Host.HttpListener": "2.0.2",
+          "Microsoft.Owin.Hosting": "2.0.2"
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "System.ComponentModel.Composition/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "DeviceService/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceService.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Autofac/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "lib/net461/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.dll": {}
+        }
+      },
+      "Autofac.Mef/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "5.0.0",
+          "System.ComponentModel.Composition": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Integration.Mef.dll": {}
+        }
+      },
+      "Autofac.Mvc5/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.Mvc": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.dll": {}
+        }
+      },
+      "Autofac.Mvc5.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Mvc.Owin.dll": {}
+        }
+      },
+      "Autofac.Owin/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.Owin": "[3.0.0, 5.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.Owin.dll": {}
+        }
+      },
+      "Autofac.WebApi2/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.dll": {}
+        }
+      },
+      "Autofac.WebApi2.Owin/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 6.0.0)",
+          "Autofac.Owin": "[5.0.1, 6.0.0)",
+          "Autofac.WebApi2": "[5.0.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Autofac.Integration.WebApi.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.AspNet.WebPages": "[3.1.0, 3.2.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Owin.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Owin": "[5.2.7, 5.3.0)",
+          "Microsoft.Owin.Host.HttpListener": "2.0.2",
+          "Microsoft.Owin.Hosting": "2.0.2"
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "[3.1.0, 3.2.0)",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {},
+          "lib/net45/System.Web.WebPages.Deployment.dll": {},
+          "lib/net45/System.Web.WebPages.Razor.dll": {},
+          "lib/net45/System.Web.WebPages.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Owin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {}
+        }
+      },
+      "Microsoft.Owin.Hosting/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "2.0.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "System.ComponentModel.Composition/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.Composition"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "DeviceService/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/5.0.0": {
+      "sha512": "U1aCHUMXuG7DDJ5JmTXF2kInXpad3Fuow+voSXEVunDHW4OkD8GDWJjleHpJPanpP+3dUQYLAM9R2lftGiQSbA==",
+      "type": "package",
+      "path": "autofac/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.5.0.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.dll",
+        "lib/net461/Autofac.pdb",
+        "lib/net461/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Mef/5.0.0": {
+      "sha512": "IX3TMPT+dQzNRODvbT1TmvjcMQRzXf1QgpYdMhHMObx6kd4S5fD4VZOGX0Muc1LIfnPV6NaQchfAFkZezDeyIA==",
+      "type": "package",
+      "path": "autofac.mef/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.mef.5.0.0.nupkg.sha512",
+        "autofac.mef.nuspec",
+        "lib/netstandard2.0/Autofac.Integration.Mef.dll",
+        "lib/netstandard2.0/Autofac.Integration.Mef.pdb",
+        "lib/netstandard2.0/Autofac.Integration.Mef.xml"
+      ]
+    },
+    "Autofac.Mvc5/5.0.0": {
+      "sha512": "VTSbbfCw0GKzKHieJIL9bHE4K0VZQS2hfIB3LIfUhRVmgY/yVTD6DDmGERwlt8Jw1PYQqpy6sQ/Bb03aoR/C7A==",
+      "type": "package",
+      "path": "autofac.mvc5/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.mvc5.5.0.0.nupkg.sha512",
+        "autofac.mvc5.nuspec",
+        "lib/net461/Autofac.Integration.Mvc.dll",
+        "lib/net461/Autofac.Integration.Mvc.xml"
+      ]
+    },
+    "Autofac.Mvc5.Owin/5.0.0": {
+      "sha512": "lgJ30Hfathrs3TCjJdD9gSQTrj6yd0lW2FJ6f0em3qiLOB/dsBlOQ05wlBnz2GXo+VA0cHU7DSaMGuovQnFBag==",
+      "type": "package",
+      "path": "autofac.mvc5.owin/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.mvc5.owin.5.0.0.nupkg.sha512",
+        "autofac.mvc5.owin.nuspec",
+        "lib/net461/Autofac.Integration.Mvc.Owin.dll",
+        "lib/net461/Autofac.Integration.Mvc.Owin.xml"
+      ]
+    },
+    "Autofac.Owin/5.0.1": {
+      "sha512": "zWG8YwFYJ9h0QKCY6JDYwvzjZX92WoUGjZSrKjpAl478iUBa2kwnfacvMLyZ9oKx81DuBv6ZkzeqmmpHGGdsbw==",
+      "type": "package",
+      "path": "autofac.owin/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.owin.5.0.1.nupkg.sha512",
+        "autofac.owin.nuspec",
+        "lib/net461/Autofac.Integration.Owin.dll",
+        "lib/net461/Autofac.Integration.Owin.xml"
+      ]
+    },
+    "Autofac.WebApi2/5.0.0": {
+      "sha512": "gtSQQL8u2NUU4lHkFA1L7hX6HPNDizF1zzSu+1PdgDSnRa4T1Ou4LPKTi8aioJ/3c3SaHNDoAYHI5qoq1r/iMg==",
+      "type": "package",
+      "path": "autofac.webapi2/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.webapi2.5.0.0.nupkg.sha512",
+        "autofac.webapi2.nuspec",
+        "lib/net461/Autofac.Integration.WebApi.dll",
+        "lib/net461/Autofac.Integration.WebApi.pdb",
+        "lib/net461/Autofac.Integration.WebApi.xml"
+      ]
+    },
+    "Autofac.WebApi2.Owin/5.0.0": {
+      "sha512": "wcZrgYJyRh+4jM/O6VqSvsPnxlGHFYrJnwN97EvZX410+NKzXmZxyMckA1LsN1OqU7yP8OcIPDrYduuWyhO3qw==",
+      "type": "package",
+      "path": "autofac.webapi2.owin/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.webapi2.owin.5.0.0.nupkg.sha512",
+        "autofac.webapi2.owin.nuspec",
+        "lib/net461/Autofac.Integration.WebApi.Owin.dll",
+        "lib/net461/Autofac.Integration.WebApi.Owin.xml"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/5.1.0": {
+      "sha512": "b0+kjZw+CG0YFpsi/DvoDmIaT4rKaxCUJW+bgAc6hI1GqPIqI4C8+zvNYWi7/ufm6GGqk1OlkBDkGlTpbTIDpA==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.1.0.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.1.0": {
+      "sha512": "qqNngbKkZv9TgetKRZzt7fIkgW4x9/eF8XNxGnR+dIQiaE+1MzsLDLjKbu8VrabhTCAZl8vV/Rh65EjE3zSZ2w==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.1.0.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.7": {
+      "sha512": "gM2QzApnHdy1FbKUJ/ROGJSm69P2G+HMoVd/t5Vq1O/zZ5TI4IKC9PX6nUfRt/NHgebZOIWHpB4/4K4inuy4yQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Owin/5.2.7": {
+      "sha512": "Zb/qw8TyMgQi3CfmIWRmfOh89LozKzOJT6EwnY1D1aUjBCms8WXfvrRusc44hEODD7KUPBJLOEJLCx1yT4vMTg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.owin/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.Owin.dll",
+        "lib/net45/System.Web.Http.Owin.xml",
+        "microsoft.aspnet.webapi.owin.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.owin.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.OwinSelfHost/5.2.7": {
+      "sha512": "3Q4dY/LxrsLXgvepAtMGQAW15mjakd+Qx0PMsX/7QOt5BwuHToTmXqzGBKJXv1WHs4hJu+pcx3oSJgBQin1TKw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.owinselfhost/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.webapi.owinselfhost.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.owinselfhost.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.1.0": {
+      "sha512": "mWVFqkrwEjDB3yuVU9aSpdGgU/Gz1zD1YYFd6yezCTVFL5IjxHtryMBOuQ0yXAIcgi2ZaF5SRXdD7eFhDTbhlQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.1.0.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Owin/3.0.0": {
+      "sha512": "SpMoiTFNsfzlo4VFYVtlErbBpm84pNVnhAbihzm1JCaXs7VfHqs/MEXEJ4Xtr1jXEp2hyKYpno8v8P58KTZVEA==",
+      "type": "package",
+      "path": "microsoft.owin/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.3.0.0.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener/2.0.2": {
+      "sha512": "FvjlLadWzpKE2fZeHoa/d1krcVQ7U5/+D+HC3KL+v+jYyvFsFIobtROX0bTgqWkFYdhS3+AWveck63m4LE6SuA==",
+      "type": "package",
+      "path": "microsoft.owin.host.httplistener/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net40/Microsoft.Owin.Host.HttpListener.xml",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
+        "microsoft.owin.host.httplistener.2.0.2.nupkg.sha512",
+        "microsoft.owin.host.httplistener.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Hosting/2.0.2": {
+      "sha512": "FH94pnDTejmN+VicQEKYl6J6L4wMSlDYY61Yykhsc7ruJVUIP2wrts67vkyalbHcqaGNCdpYsChd7IOpXUcDzQ==",
+      "type": "package",
+      "path": "microsoft.owin.hosting/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Owin.Hosting.XML",
+        "lib/net40/Microsoft.Owin.Hosting.dll",
+        "lib/net45/Microsoft.Owin.Hosting.XML",
+        "lib/net45/Microsoft.Owin.Hosting.dll",
+        "microsoft.owin.hosting.2.0.2.nupkg.sha512",
+        "microsoft.owin.hosting.nuspec"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "sha512": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    },
+    "System.ComponentModel.Composition/4.5.0": {
+      "sha512": "+iB9FoZnfdqMEGq6np28X6YNSUrse16CakmIhV3h6PxEWt7jYxUN3Txs1D8MZhhf4QmyvK0F/EcIN0f4gGN0dA==",
+      "type": "package",
+      "path": "system.componentmodel.composition/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcoreapp2.0/System.ComponentModel.Composition.dll",
+        "lib/netstandard2.0/System.ComponentModel.Composition.dll",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.ComponentModel.Composition.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.composition.4.5.0.nupkg.sha512",
+        "system.componentmodel.composition.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "DeviceService/1.0.0": {
+      "type": "project",
+      "path": "DeviceService/DeviceService.csproj",
+      "msbuildProject": "DeviceService/DeviceService.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Autofac.Mef >= 5.0.0",
+      "Autofac.Mvc5 >= 5.0.0",
+      "Autofac.Mvc5.Owin >= 5.0.0",
+      "Autofac.WebApi2.Owin >= 5.0.0",
+      "Cellebrite.SQLite >= 1.0.99",
+      "DeviceService >= 1.0.0",
+      "Microsoft.AspNet.WebApi.OwinSelfHost >= 5.2.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PiniA\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\NET\\HelloWorld\\HelloWorld.csproj",
+      "projectName": "HelloWorld",
+      "projectPath": "C:\\NET\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\PiniA\\.nuget\\packages\\",
+      "outputPath": "C:\\NET\\HelloWorld\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\PiniA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj": {
+              "projectPath": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Autofac.Mef": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Autofac.Mvc5": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Autofac.Mvc5.Owin": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Autofac.WebApi2.Owin": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Cellebrite.SQLite": {
+            "target": "Package",
+            "version": "[1.0.99, )"
+          },
+          "Microsoft.AspNet.WebApi.OwinSelfHost": {
+            "target": "Package",
+            "version": "[5.2.7, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Cellebrite.SQLite. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Cellebrite.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\NET\\HelloWorld\\HelloWorld.csproj": {}
+  },
+  "projects": {
+    "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj",
+        "projectName": "DeviceService",
+        "projectPath": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\NET\\HelloWorld\\HelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NET\\HelloWorld\\HelloWorld.csproj",
+        "projectName": "HelloWorld",
+        "projectPath": "C:\\NET\\HelloWorld\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\PiniA\\.nuget\\packages\\",
+        "outputPath": "C:\\NET\\HelloWorld\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\PiniA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj": {
+                "projectPath": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Autofac.Mef": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.Mvc5": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.Mvc5.Owin": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.WebApi2.Owin": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Cellebrite.SQLite": {
+              "target": "Package",
+              "version": "[1.0.99, )"
+            },
+            "Microsoft.AspNet.WebApi.OwinSelfHost": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.HashDb.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\PiniA\Desktop\orasio\hash_db_service-master\HashDb\.idea\.idea.HashDb\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

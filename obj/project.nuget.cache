@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "C1T+YbLoLoVcjnTp3HevmPELg2lIeZD6ey8+3JqtLTdJ0/y8aUybamIQusMBvRH33T1C7rO8CTP6ovfJIM/hcg==",
+  "success": false,
+  "projectFilePath": "C:\\NET\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac.mef\\5.0.0\\autofac.mef.5.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac.mvc5\\5.0.0\\autofac.mvc5.5.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac.mvc5.owin\\5.0.0\\autofac.mvc5.owin.5.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac.owin\\5.0.1\\autofac.owin.5.0.1.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac.webapi2\\5.0.0\\autofac.webapi2.5.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\autofac.webapi2.owin\\5.0.0\\autofac.webapi2.owin.5.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.mvc\\5.1.0\\microsoft.aspnet.mvc.5.1.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.razor\\3.1.0\\microsoft.aspnet.razor.3.1.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.webapi.owin\\5.2.7\\microsoft.aspnet.webapi.owin.5.2.7.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.webapi.owinselfhost\\5.2.7\\microsoft.aspnet.webapi.owinselfhost.5.2.7.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.aspnet.webpages\\3.1.0\\microsoft.aspnet.webpages.3.1.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.owin\\3.0.0\\microsoft.owin.3.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.owin.host.httplistener\\2.0.2\\microsoft.owin.host.httplistener.2.0.2.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.owin.hosting\\2.0.2\\microsoft.owin.hosting.2.0.2.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\newtonsoft.json\\6.0.4\\newtonsoft.json.6.0.4.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\system.componentmodel.composition\\4.5.0\\system.componentmodel.composition.4.5.0.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\PiniA\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Cellebrite.SQLite. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "Cellebrite.SQLite",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}
