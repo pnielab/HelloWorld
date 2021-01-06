@@ -74,7 +74,21 @@ namespace HelloWorld.Services
 
         public Device UpdateDevice(Device device)
         {
-            throw new NotImplementedException();
+            string filePath = ConstructDeviceFilePath(device.Id);
+            bool exists = System.IO.File.Exists(filePath);
+            if (!exists)
+            {
+                throw new Exception("not found");
+            }
+            JObject deviceAsJson = JObject.FromObject(device);
+            File.WriteAllText(@filePath, deviceAsJson.ToString());
+// write JSON directly to a file
+            using (StreamWriter file = File.CreateText(@filePath))
+            using (JsonTextWriter writer = new JsonTextWriter(file))
+            {
+                deviceAsJson.WriteTo(writer);
+            }
+            return device;
         }
         
         private string constructDeviceFolderPath(int deviceId)

@@ -41,11 +41,14 @@ namespace HelloWorld.Controllers
         }
 
 
-        [Route("devices")]
+        [Route("devices/{id}")]
         [HttpPut]
-        public async Task<DeviceDto> UpdateDevice(DeviceDto device, [FromUri] string dbType)
+        public async Task<DeviceDto> UpdateDevice(int id, [FromBody] DeviceDto deviceDto, [FromUri] string dbType)
         {
-            return new DeviceDto();
+            Device device = ConvertDeviceDtoToDevice(deviceDto);
+            device.Id = id;
+            Device savedDevice =  deviceFileService.UpdateDevice(device);
+            return ConvertDeviceToDeviceDto(savedDevice);
         }
 
         [Route("devices")]

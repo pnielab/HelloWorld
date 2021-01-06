@@ -8,7 +8,7 @@ namespace HelloWorld.Controllers
     {
         DeviceDto GetDevice(int id, string dbType);
         SuccessDto DeleteDevice(int id, string dbType);
-        Task<DeviceDto> UpdateDevice(DeviceDto device, string dbType);
+        Task<DeviceDto> UpdateDevice(int id,DeviceDto device, string dbType);
         Task<DeviceDto> CreateDevice(DeviceDto deviceDto, string dbType);
     }
 }
