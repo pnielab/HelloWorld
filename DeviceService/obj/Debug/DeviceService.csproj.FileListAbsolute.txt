@@ -36,3 +36,8 @@ C:\NET\HelloWorld\DeviceService\obj\Debug\DeviceService.dll
 C:\NET\HelloWorld\DeviceService\obj\Debug\DeviceService.pdb
 C:\NET\HelloWorld\DeviceService\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\NET\HelloWorld\DeviceService\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\NET\HelloWorld\DeviceService\bin\Debug\DeviceDB.dll
+C:\NET\HelloWorld\DeviceService\bin\Debug\EntityFramework.dll
+C:\NET\HelloWorld\DeviceService\bin\Debug\DeviceDB.pdb
+C:\NET\HelloWorld\DeviceService\bin\Debug\DeviceDB.dll.config
+C:\NET\HelloWorld\DeviceService\bin\Debug\EntityFramework.xml

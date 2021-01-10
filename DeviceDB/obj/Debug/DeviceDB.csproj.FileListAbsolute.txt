@@ -1,0 +1,12 @@
+C:\NET\HelloWorld\DeviceDB\bin\Debug\DeviceDB.dll
+C:\NET\HelloWorld\DeviceDB\bin\Debug\DeviceDB.pdb
+C:\NET\HelloWorld\DeviceDB\obj\Debug\DeviceDB.csprojAssemblyReference.cache
+C:\NET\HelloWorld\DeviceDB\obj\Debug\DeviceDB.csproj.CoreCompileInputs.cache
+C:\NET\HelloWorld\DeviceDB\obj\Debug\DeviceDB.dll
+C:\NET\HelloWorld\DeviceDB\obj\Debug\DeviceDB.pdb
+C:\NET\HelloWorld\DeviceDB\bin\Debug\DeviceDB.dll.config
+C:\NET\HelloWorld\DeviceDB\bin\Debug\EntityFramework.dll
+C:\NET\HelloWorld\DeviceDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\NET\HelloWorld\DeviceDB\bin\Debug\EntityFramework.xml
+C:\NET\HelloWorld\DeviceDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\NET\HelloWorld\DeviceDB\obj\Debug\DeviceDB.csproj.CopyComplete

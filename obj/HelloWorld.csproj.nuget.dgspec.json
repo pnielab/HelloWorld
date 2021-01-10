@@ -4,11 +4,30 @@
     "C:\\NET\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
+    "C:\\NET\\HelloWorld\\DeviceDB\\DeviceDB.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\NET\\HelloWorld\\DeviceDB\\DeviceDB.csproj",
+        "projectName": "DeviceDB",
+        "projectPath": "C:\\NET\\HelloWorld\\DeviceDB\\DeviceDB.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj": {
       "restore": {
         "projectUniqueName": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj",
         "projectName": "DeviceService",
-        "projectPath": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj"
+        "projectPath": "C:\\NET\\HelloWorld\\DeviceService\\DeviceService.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\NET\\HelloWorld\\DeviceDB\\DeviceDB.csproj": {
+                "projectPath": "C:\\NET\\HelloWorld\\DeviceDB\\DeviceDB.csproj"
+              }
+            }
+          }
+        }
       },
       "frameworks": {
         "net472": {}

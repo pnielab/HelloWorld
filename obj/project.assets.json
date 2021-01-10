@@ -295,8 +295,20 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "DeviceDB/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceDB.dll": {}
+        }
+      },
       "DeviceService/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DeviceDB": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DeviceService.dll": {}
         },
@@ -599,8 +611,20 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "DeviceDB/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceDB.dll": {}
+        }
+      },
       "DeviceService/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DeviceDB": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DeviceService.dll": {}
         },
@@ -903,8 +927,20 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "DeviceDB/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceDB.dll": {}
+        }
+      },
       "DeviceService/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DeviceDB": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DeviceService.dll": {}
         },
@@ -1207,8 +1243,20 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "DeviceDB/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DeviceDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeviceDB.dll": {}
+        }
+      },
       "DeviceService/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DeviceDB": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DeviceService.dll": {}
         },
@@ -1635,6 +1683,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DeviceDB/1.0.0": {
+      "type": "project",
+      "path": "DeviceDB/DeviceDB.csproj",
+      "msbuildProject": "DeviceDB/DeviceDB.csproj"
     },
     "DeviceService/1.0.0": {
       "type": "project",

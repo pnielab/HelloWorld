@@ -33,7 +33,7 @@ namespace HelloWorld
 
             builder.RegisterApiControllers(assemblies);
 
-
+            
             // Register MEF-exported and imported dependencies
             AggregateCatalog catalog = new AggregateCatalog();
             catalog.Catalogs.Add(new AssemblyCatalog(Assembly.GetExecutingAssembly()));
